@@ -2,5 +2,5 @@
 
 Deploy your multi page app to surge.sh
 
-* [ ] Build your app first
-* [ ] Run the deploy command from the build folder
+- [x] Build your app first
+- [x] Run the deploy command from the build folder
