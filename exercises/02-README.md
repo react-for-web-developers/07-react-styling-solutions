@@ -5,4 +5,4 @@ Deploy your multi page app to surge.sh
 - [x] Build your app first
 - [x] Run the deploy command from the build folder
 
-🎉 Site deployed using `Surge.sh` [here](vk-styled-components.surge.sh)
+🎉 Site deployed using `Surge.sh` [here](https://vk-styled-components.surge.sh/#/)
