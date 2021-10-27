@@ -1,6 +1,6 @@
-# Exercise: Multi Page App
+# Exercise: Styled Multi Page App
 
-Create an app with at least 3 pages and shared state between the pages.
+Update your Multi Page App from Lesson 6 to include a custom styling solution.
 
-- [x] You should have a navbar component that links to each of the pages.
-- [x] There should be some state shared between the pages using the context API.
+- [ ] Use either CSS Modules, CSS in JS or Styled Components (Don't use plain CSS or inline CSS)
+- [ ] There should be at least 1 shared style file that is used in multiple components
