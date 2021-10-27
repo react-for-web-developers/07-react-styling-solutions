@@ -2,16 +2,18 @@ import React from "react";
 import { useContext } from "react";
 import AppContext from "../AppContext";
 
+import { Container, Header } from "../styles/styles";
+
 const About = () => {
 	const { user } = useContext(AppContext);
 	return (
-		<div>
-			{user && user.username === "VK" ? (
-				<h3>About {user.username}: Full stack developer</h3>
+		<Container>
+			{user ? (
+				<Header>About {user.username}: Full Stack Developer</Header>
 			) : (
-				<h3>About {user.username}: No info</h3>
+				<Header>Login to access about!</Header>
 			)}
-		</div>
+		</Container>
 	);
 };
 

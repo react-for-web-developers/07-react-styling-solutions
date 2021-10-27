@@ -7,9 +7,7 @@ import Contact from "./pages/Contact";
 import AppContext from "./AppContext";
 
 const App = () => {
-	const [user, setUser] = useState({
-		username: "VK"
-	});
+	const [user, setUser] = useState(null);
 
 	const [about] = useState({
 		title: "Software Engineer"

@@ -1,21 +1,21 @@
 import React from "react";
 import { useContext } from "react";
 import AppContext from "../AppContext";
+import { Container, Header } from "../styles/styles";
 
 const Contact = () => {
 	const { user } = useContext(AppContext);
 
 	return (
-		<div>
-			{user && user.username === "VK" ? (
+		<Container>
+			{user ? (
 				<>
-					Contact {user.username} at:
-					<h3>user@email.com</h3>
+					<Header>Contact {user.username} at: vk@example.com</Header>
 				</>
 			) : (
-				<h3>No contact info for {user.username}</h3>
+				<Header>Login to access contact details</Header>
 			)}
-		</div>
+		</Container>
 	);
 };
 
